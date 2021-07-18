@@ -1,0 +1,25 @@
+.menu__header {
+    background-color: #d6d6d6;
+
+    &--ul {
+        display: flex;
+        margin: 0;
+
+        li {
+            list-style: none;
+            padding: 10px 20px;
+
+            a {
+                text-decoration: none;
+            }
+        }
+    }
+
+    .active {
+        background-color: #f1f1f1;
+
+        a {
+            color: red;
+        }
+    }
+}
